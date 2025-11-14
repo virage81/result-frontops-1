@@ -1,0 +1,8 @@
+services:
+  api:
+    image: virage81/result-frontops-1
+    build: .
+    ports:
+      - 3000:3000
+
+name: result-frontops-1
